@@ -14,3 +14,4 @@ data = yf.download(
 
 print(data.head())
 print("Everything loaded successfully!!!")
+print("Data columns:", data.columns)
